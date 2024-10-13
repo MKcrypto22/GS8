@@ -1,0 +1,28 @@
+.nav-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-toggle {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.show-container {
+  display: block;
+}
+
+.links,
+.social-icons {
+  list-style: none;
+  display: flex;
+}
+
+.links li a,
+.social-icons li a {
+  text-decoration: none;
+  padding: 1rem;
+}
